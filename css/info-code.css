@@ -1,0 +1,22 @@
+.info-code {
+  padding: var(--pw-spacing);
+}
+
+.code {
+  font-size: 1.5rem;
+  line-height: 1.4; 
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: greenyellow
+}
+.pink {
+  color: pink
+}
+.blue {
+  color: #00e1ff
+}

@@ -1,0 +1,49 @@
+@import url('./info-code.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --pw-bg-color: black;
+  --pw-bg-header-color: white;
+  --pw-bg-border-primary: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  --pw-spacing: 1rem;
+  --text-color: white;
+  --font-family: 'Curier New', Curier, monospace;
+  --text-size: 16px;
+}
+
+body {
+  margin: 0;
+  background-color: var(--pw-bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--text-size);
+}
+
+header {
+  background-color: var(--pw-bg-header-color);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.header-content {
+  padding: var(--pw-spacing);
+}
+
+.gradient-border {
+  height: 5px;
+  background-color: #4158D0;
+  background-image: var(--pw-bg-border-primary);
+}
+
+main {
+  padding: var(--pw-spacing);;
+  height: 1000px;
+}
+
+.logo {
+  transition: width 0.5s;
+}

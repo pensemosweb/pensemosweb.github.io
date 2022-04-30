@@ -5,21 +5,22 @@
 }
 
 html {
-  --pw-bg-color: black;
+  --pw-bg-color: white;
   --pw-bg-header-color: white;
-  --pw-bg-border-primary: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  --pw-bg-edge: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   --pw-spacing: 1rem;
-  --text-color: white;
-  --font-family: 'Curier New', Curier, monospace;
-  --text-size: 16px;
+  --pw-text-color: black;
+  --pw-text-color-secondary: white;
+  --pw-font-family: 'Curier New', Curier, monospace;
+  --pw-text-size: 16px;
 }
 
 body {
   margin: 0;
   background-color: var(--pw-bg-color);
-  color: var(--text-color);
-  font-family: var(--font-family);
-  font-size: var(--text-size);
+  color: var(--pw-text-color);
+  font-family: var(--pw-font-family);
+  font-size: var(--pw-text-size);
 }
 
 header {
@@ -36,7 +37,7 @@ header {
 .gradient-border {
   height: 5px;
   background-color: #4158D0;
-  background-image: var(--pw-bg-border-primary);
+  background-image: var(--pw-bg-edge);
 }
 
 main {

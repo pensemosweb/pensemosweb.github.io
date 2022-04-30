@@ -47,4 +47,9 @@ main {
 
 .logo {
   transition: width 0.5s;
+  width: 300px;
+}
+
+.small {
+  width: 200px;
 }

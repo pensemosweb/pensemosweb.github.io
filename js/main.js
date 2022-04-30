@@ -6,9 +6,9 @@
    const distance = rootHtml.scrollTop;
 
    if (distance > 100) {
-     logo.style = 'width: 300px';
+     logo.classList.add('small');
    } else {
-     logo.style = 'width: 500px';
+     logo.classList.remove('small');
    }
   });
 }
